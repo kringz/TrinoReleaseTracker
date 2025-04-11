@@ -1,0 +1,160 @@
+/* Custom styles for Trino Breaking Changes app */
+:root {
+    --trino-purple: #7B1FA2;
+    --trino-dark-purple: #4A148C;
+    --trino-light-purple: #E1BEE7;
+    --trino-dark-grey: #424242;
+    --trino-grey: #616161;
+    --trino-light-grey: #9E9E9E;
+    --trino-red: #FF5252;
+    --trino-green: #00BFA5;
+    --trino-yellow: #FFD54F;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Apply purple theme */
+.btn-primary, .bg-primary {
+    background-color: var(--trino-purple) !important;
+    border-color: var(--trino-purple) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--trino-dark-purple) !important;
+    border-color: var(--trino-dark-purple) !important;
+}
+
+.text-primary {
+    color: var(--trino-purple) !important;
+}
+
+.navbar {
+    background-color: var(--trino-dark-grey) !important;
+}
+
+.card-header, .bg-light {
+    background-color: var(--trino-light-purple) !important;
+    color: var(--trino-dark-grey);
+}
+
+.connector-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.connector-card:hover {
+    transform: translateY(-3px);
+}
+
+.change-item {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+}
+
+.change-item:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.change-item.breaking:hover {
+    background-color: rgba(var(--bs-danger-rgb), 0.15);
+}
+
+.change-item.feature:hover {
+    background-color: rgba(var(--bs-success-rgb), 0.15);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.connector-link.active {
+    background-color: var(--trino-purple);
+    color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Custom animations */
+.fadeIn {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.slideIn {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Dark theme adjustments */
+[data-bs-theme="dark"] {
+    --change-item-bg: rgba(255, 255, 255, 0.05);
+    --change-item-hover-bg: rgba(255, 255, 255, 0.1);
+}
+
+[data-bs-theme="dark"] .change-item {
+    background-color: var(--change-item-bg);
+}
+
+[data-bs-theme="dark"] .change-item:hover {
+    background-color: var(--change-item-hover-bg);
+}
+
+[data-bs-theme="dark"] .change-item.breaking {
+    background-color: rgba(var(--bs-danger-rgb), 0.2);
+}
+
+[data-bs-theme="dark"] .change-item.feature {
+    background-color: rgba(var(--bs-success-rgb), 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sticky-top {
+        position: relative;
+        top: 0;
+    }
+    
+    .connector-section {
+        margin-bottom: 20px;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .card-header .badge {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+}
