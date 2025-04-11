@@ -1,0 +1,31 @@
+w.js
+[Fri Apr 11 17:00:05.043256 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860] mod_wsgi (pid=1674630): Failed to exec Python script file '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:05.043308 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860] mod_wsgi (pid=1674630): Exception occurred processing WSGI script '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:05.043492 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860] Traceback (most recent call last):
+[Fri Apr 11 17:00:05.043518 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860]   File "/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi", line 14, in <module>
+[Fri Apr 11 17:00:05.043523 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860]     if os.path.exists(site_packages):
+[Fri Apr 11 17:00:05.043550 2025] [wsgi:error] [pid 1674630] [client 172.71.150.162:44860] NameError: name 'os' is not defined
+[Fri Apr 11 17:00:08.037048 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870] mod_wsgi (pid=1674339): Failed to exec Python script file '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:08.037095 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870] mod_wsgi (pid=1674339): Exception occurred processing WSGI script '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:08.037185 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870] Traceback (most recent call last):
+[Fri Apr 11 17:00:08.037210 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870]   File "/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi", line 14, in <module>
+[Fri Apr 11 17:00:08.037215 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870]     if os.path.exists(site_packages):
+[Fri Apr 11 17:00:08.037231 2025] [wsgi:error] [pid 1674339] [client 172.71.150.162:44870] NameError: name 'os' is not defined
+[Fri Apr 11 17:00:09.231292 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774] mod_wsgi (pid=1674340): Failed to exec Python script file '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'., referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:09.231341 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774] mod_wsgi (pid=1674340): Exception occurred processing WSGI script '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'., referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:09.231437 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774] Traceback (most recent call last):, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:09.231463 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774]   File "/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi", line 14, in <module>, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:09.231469 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774]     if os.path.exists(site_packages):, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:09.231486 2025] [wsgi:error] [pid 1674340] [client 172.71.151.93:35774] NameError: name 'os' is not defined, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:11.981581 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496] mod_wsgi (pid=1674436): Failed to exec Python script file '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:11.981635 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496] mod_wsgi (pid=1674436): Exception occurred processing WSGI script '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'.
+[Fri Apr 11 17:00:11.981727 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496] Traceback (most recent call last):
+[Fri Apr 11 17:00:11.981752 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496]   File "/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi", line 14, in <module>
+[Fri Apr 11 17:00:11.981757 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496]     if os.path.exists(site_packages):
+[Fri Apr 11 17:00:11.981772 2025] [wsgi:error] [pid 1674436] [client 172.71.150.162:51496] NameError: name 'os' is not defined
+[Fri Apr 11 17:00:14.672128 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246] mod_wsgi (pid=1674350): Failed to exec Python script file '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'., referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:14.672176 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246] mod_wsgi (pid=1674350): Exception occurred processing WSGI script '/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi'., referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:14.672280 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246] Traceback (most recent call last):, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:14.672321 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246]   File "/var/www/xsidebyside.com/public_html/trino_breaking_changes.wsgi", line 14, in <module>, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:14.672327 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246]     if os.path.exists(site_packages):, referer: https://xsidebyside.com/sw.js
+[Fri Apr 11 17:00:14.672343 2025] [wsgi:error] [pid 1674350] [client 172.71.151.93:58246] NameError: name 'os' is not defined, referer: https://xsidebyside.com/sw.js
